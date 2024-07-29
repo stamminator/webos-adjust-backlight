@@ -14,7 +14,7 @@ if ! echo "$changeValue" | grep -q '^[0-9][0-9]*$'; then
 fi
 
 if [ "$changeValue" -lt 0 ] || [ "$changeValue" -gt 100 ]; then
-    echo "Error: Argumet 2 must be within the range of 0 to 100."
+    echo "Error: Argument 2 must be within the range of 0 to 100."
     exit 1
 fi
 
